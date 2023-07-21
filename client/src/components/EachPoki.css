@@ -1,0 +1,21 @@
+.eachPoki-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .pokemon-list-item {
+    /* Your styles for the list item */
+  }
+  
+  .eachImg {
+    width: 100%;
+    /* Additional styles for the image */
+  }
+  
+  .delete {
+    /* Your styles for the delete button */
+  }
+  

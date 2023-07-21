@@ -1,0 +1,158 @@
+/* TODO: Please feel free to write your own css classes here */
+
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+
+
+/* Below is the initial style that was created for you. feel free to overwrite it. */
+
+/* 
+***********************************************************************************
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Francois+One|PT+Serif:400,400i,700,700i");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0px;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  font-size: 1.1em;
+}
+
+h2 {
+  color: #2c3e50;
+}
+input{
+  width: 800px;
+  height: 40px;
+}
+
+.pokemon-list-item {
+  min-height: 350px;
+  margin: 20px;
+  list-style: none;
+  border: 1px solid #77777769;
+  background-color: #fdfdfd;
+  border-radius: 4px;
+  padding: 30px 50px 0px 50px;
+  box-shadow: 0 0 1em #80808066;
+  width: 200px;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ecf0f1;
+  background-color: #e74c3c;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-left: 200px;
+}
+
+.post {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.9em;
+  margin-right: auto;
+  margin-left: 10px;
+  font-family: "Francois One";
+  color: #ffffff;
+}
+
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav {
+  background-color: red;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "lato";
+}
+
+.nav-selected {
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 1.1em;
+}
+
+.nav-unselected {
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 1.1em;
+}
+
+.pokemon {
+  padding: 0px 10% 0px 10%;
+  display: flex;
+}
+.adda{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.sear{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+h1{
+  text-align: center;
+}
+.pokidit{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.imag{
+  width: 400px;
+  height: 400px;
+}
+.delete{
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ecf0f1;
+  background-color: #e74c3c;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-left: 90px;
+}
+.eachImg{
+  width: 100%;
+}
